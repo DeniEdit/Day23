@@ -6,9 +6,8 @@ class Plant extends React.Component {
         this.state = { type: "Flowering plant" };
     }
     render() {
-        return (
+        return 
             <h2>Plant type is {this.state.type}</h2>
-        )
     }
 }
 
