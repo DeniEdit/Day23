@@ -9,7 +9,7 @@ class Plant extends React.Component {
         this.setState({type: "Non flowering plant"});
     }
     render() {
-        return (
+        return 
             <div>
             <h2>Plant type is {this.state.type}</h2>
             <button 
@@ -18,7 +18,6 @@ class Plant extends React.Component {
             Change type
             </button>
             </div>
-        );
     }
 }
 
