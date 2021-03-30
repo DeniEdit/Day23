@@ -5,6 +5,9 @@ class Plant extends React.Component {
         super(props);
         this.state = { type: "Flowering plant" };
     }
+    changeType = () => {
+        this.setState({type: "Non flowering plant"});
+    }
     render() {
         return (
             <div>
@@ -15,7 +18,7 @@ class Plant extends React.Component {
             Change type
             </button>
             </div>
-        )
+        );
     }
 }
 
