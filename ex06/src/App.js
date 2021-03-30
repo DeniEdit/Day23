@@ -10,6 +10,7 @@ class App extends Component {
     handleSubmit = (character) => {
         this.setState({characters: [...this.state.characters, character]})
     }
+    <Form handleSubmit={this.handleSubmit} />
 }
 
 export default App;
