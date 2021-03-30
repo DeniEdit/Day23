@@ -9,7 +9,7 @@ class SimpleForm extends React.Component {
         this.setState({name: event.target.value});
     }
     render() {
-        return (
+        return 
             <form>
                 <h1>Name: {this.state.name}</h1>
                 <p>First name:</p>
@@ -17,7 +17,6 @@ class SimpleForm extends React.Component {
                 type='text'
                 onChange={this.onChangeHandler} />
             </form>
-        );
     }
 }
 
