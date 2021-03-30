@@ -5,9 +5,7 @@ import Form from './Form';
 
 class App extends Component {
     state = {
-        characters: [
-            <Form handleSubmit={this.handleSubmit} />
-        ],
+        characters: [],
     }
     handleSubmit = (character) => {
         this.setState({characters: [...this.state.characters, character]})
