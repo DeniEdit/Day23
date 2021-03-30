@@ -23,8 +23,7 @@ class Form extends Component {
 
     render() {
         const { firstName, lastName } = this.state;
-
-        return (
+        return 
             <form>
                 <label htmlFor="firstName">First Name</label>
                 <input type="text" name="firstName" id="firstName" value={firstName}
@@ -32,13 +31,9 @@ class Form extends Component {
                 <label htmlFor="lastName">Last Name</label>
                 <input type="text" name="lastName" id="lastName" value={lastName}
                 onChange={this.handleChange} />
-
                 <input type="button" value="Submit" onClick={this.submitForm} />
-
-            </form>
-        );
-
-    }
+             </form>
+}
 }
 
 export default Form;
