@@ -29,10 +29,7 @@ const Table = (props) => {
   return (
     <table>
       <TableHeader />
-      <TableBody
-        characterData={characterData}
-        removeCharacter={removeCharacter}
-      />
+      <TableBody characterData={characterData} removeCharacter={removeCharacter} />
     </table>
   );
 };
